@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.marquee-scroller-wrapper {
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #293045;
+    padding: 10rem 0;
+}
+
+.marquee-scroller {
+    display: inline-flex;
+    padding-left: 0;
+    color: #333;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.marquee-text {
+    width: calc(100%/5);
+    margin-left: 20px;
+    background-color: #313a4f;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.marquee-content {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-left: 5px;
+}
